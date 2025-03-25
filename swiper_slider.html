@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assest/css/swiper_slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <section id="destinataion">
+        <div class="container">
+            <h2 class="main-title">Destination</h2>
+            <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+                
+            <div class="swiper destSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="dest-slide">
+                            <img src="assest/image/paris.jpg" alt="">
+                            <div class="dest-data">
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dest-slide">
+                            <img src="assest/image/paris.jpg" alt="">
+                            <div class="dest-data">
+                                <div class="circle">
+                                    <span>"</span>
+                                </div>
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dest-slide">
+                            <img src="assest/image/paris.jpg" alt="">
+                            <div class="dest-data">
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dest-slide">
+                            <img src="assest/image/paris.jpg" alt="">
+
+                            <div class="dest-data">
+                                <h3>Bali, Indonesia.</h3>
+                                <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+              
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".destSlider", {
+            slidesPerView: 1,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                1024: {
+                    slidesPerView: 3
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
