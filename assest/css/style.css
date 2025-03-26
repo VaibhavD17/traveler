@@ -64,7 +64,7 @@ a {
 
 /*************** Header ***************/
 header {
-    width: 100%;
+    width:  100%;
     position: fixed;
     top: 0;
     z-index: 99;
@@ -205,7 +205,6 @@ header .container>a {
 
 
 .hero-title {
-    width: 696px;
     color: white;
 }
 
@@ -222,7 +221,7 @@ header .container>a {
 }
 
 .hero-minidata2 {
-    margin-top: 36px;
+    margin-top: 5px;
 }
 
 .hero-minidata2>p {
@@ -456,7 +455,7 @@ header .container>a {
 }
 
 
-.dest-slide > img {
+.dest-slide>img {
     display: block;
     width: 100%;
     height: 100%;
@@ -520,9 +519,9 @@ header .container>a {
     transform: translateY(-10px);
 }
 
-.dest-slide:hover > img { 
-      border-radius: 10px 10px 0 0;
-    }
+.dest-slide:hover>img {
+    border-radius: 10px 10px 0 0;
+}
 
 .dest-slide:hover .dest-data {
     display: block;
@@ -2085,6 +2084,244 @@ footer .container {
     .hero-data form select {
         display: block;
         margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .main-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .hero-data form .common-submit {
+        font-size: 15px;
+    }
+    .hero-minidata2>p {
+        color: #cfcfcf;
+        font-size: 14px;
+    }
+
+    .fa-bars, .fa-xmark {
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+    }
+
+    .common-submit {
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .sub-title {
+        font-size: 11px;
+        text-align: center;
+        color: #878787;
+        line-height: 17px;
+        margin-top: 9px;
+    }
+
+    .work .work-data h2 {
+        font-size: 35px;
+        margin: 42px 0 13px 0;
+    }
+
+    .data img {
+        margin-bottom: 30px;
+    }
+
+    .data p {
+        color: #484848;
+        font-size: 11px;
+        margin-bottom: 19px;
+    }
+
+    #packages {
+        margin-top: 60px;
+    }
+
+    .popular .popular-pack h2 {
+        font-size: 25px;
+    }
+
+    .popular .popular-pack p {
+        font-size: 11px;
+        color: #484848;
+    }
+
+    .common-button {
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 11px 18px;
+        border-radius: 70px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .popular {
+        width: 100%;
+        display: flex    ;
+        justify-content: space-between;
+        margin: 50px 0 40px 0;
+        row-gap: 27px;
+    }
+
+    .booking-box {
+        margin: 0 0px;
+        box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        background: transparent;
+    }
+
+    #destinataion {
+        margin-top: 60px;
+    }
+
+    #blog {
+        margin-top: 60px; 
+    }
+
+    .tips-detail h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .tips-detail p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .tips-detail .common-button {
+        font-size: 16px;
+        margin: 27px 0 15px 0;
+    }
+
+    #contact {
+        margin-top: 60px;
+    }
+
+    .contact-detail form {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        padding: 40px 20px 40px 20px;
+        border-radius: 10px;
+    }
+
+    .contact-detail input {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.155);
+        padding: 10px 0 10px 14px;
+        border-radius: 5px;
+        color: #343434;
+    }
+
+    .contact-detail textarea {
+        display: block;
+        width: 100%;
+        font-size: 12px;
+        font-family: 'Poppins';
+        padding: 10px 0 0 14px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.155);
+    }
+
+    .contact-detail form .common-submit {
+        color: white;
+        font-size: 19px;
+        border-radius: 36px;
+        margin-top: 32px;
+        padding: 8px 7px;
+    }
+
+    .contact-data h2 {
+        font-size: 35px;
+    }
+
+    .contact-data p {
+        font-size: 11px;
+        color: #343434;
+    }
+
+    .data h3 {
+        font-size: 20px;
+    }
+
+    .data>ul>li {
+        padding: 0px 0;
+    }
+
+    .data>ul>li>a {
+        display: inline-block;
+        font-size: 12px;
+        color: black;
+    }
+
+    .detail-data {
+        display: flex    ;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        row-gap: 15px;
+    }
+
+    #Subscribe {
+        margin-top: 60px;
+    }
+
+    .Subscribe-form #type-email {
+        width: 100%;
+        display: block;
+        outline: none;
+        color: #9b9b9b;
+        font-size: 14px;
+        border: none;
+        /* padding-left: 12px; */
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #Subscribe .common-submit {
+        font-size: 16px;
+        color: #dfdfdf;
+        padding: 11px 16px;
+    }
+
+    .info>p {
+        color: #6c6c6c;
+        font-size: 11px;
+    }
+
+    .info a {
+        font-size: 12px;
+    }
+
+    .info h3 {
+        font-size: 20px;
+    }
+
+    .info>ul>li {
+        padding: 0px 0;
+        margin-top: 0;
+    }
+
+    footer .container {
+        margin: 0 auto;
+        /* justify-content: space-between; */
+        padding: 50px 0;
+        row-gap: 25px;
+    }
+
+    #about {
+        margin-top: 60px;
+    }
+
+    .work {
+        justify-content: center;
+        margin: 50px 0;
     }
 }
 
@@ -2404,6 +2641,7 @@ footer .container {
     .hero-data {
         padding-top: 220px;
     }
+
     .hero-title h1 {
         font-size: 90px;
         line-height: 110px;
@@ -2742,7 +2980,7 @@ footer .container {
     .fa-xmark {
         display: inline-block;
         color: white;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     header nav>ul {
