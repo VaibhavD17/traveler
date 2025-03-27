@@ -68,7 +68,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 99;
-    padding-top: 20px;
+    padding: 20px 0;
+    background: #b6a8a8a6;
 }
 
 header nav {
@@ -735,6 +736,10 @@ header .container>a {
     border: none;
     padding-left: 12px;
 }
+#Subscribe .common-submit {
+    font-size: 20px;
+    color: #dfdfdf;
+}
 
 #Subscribe h2 {
     color: white;
@@ -744,10 +749,7 @@ header .container>a {
     color: #dfdfdf;
 }
 
-#Subscribe .common-submit {
-    font-size: 20px;
-    color: #dfdfdf;
-}
+
 
 /* ************************************** */
 
@@ -1897,17 +1899,6 @@ footer .container {
         width: 100%;
     }
 
-    header nav>ul {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: -50%;
-        height: 100vh;
-        width: 50%;
-        /* background-color: #343434; */
-        background-color: #069ABA;
-        transition: 1s;
-    }
 
     #hero {
         height: 70vh;
@@ -2422,6 +2413,11 @@ footer .container {
         height: 300px;
     }
 
+    #travelData {
+        margin-top: 60px;
+        background: #c4c4c4;
+    }
+
 
 }
 
@@ -2816,6 +2812,55 @@ footer .container {
         line-height: 110px;
     }
 
+    .Subscribe-form #type-email {
+        width: 75%;
+        display: block;
+        outline: none;
+        color: #9b9b9b;
+        font-size: 18px;
+        border: none;
+        padding-left: 12px;
+    }
+    #Subscribe .common-submit {
+        font-size: 20px;
+        color: #dfdfdf;
+    }
+
+    .contact-detail form {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        padding: 75px 41px 50px 41px;
+        border-radius: 10px;
+    }
+    
+    .contact-detail input {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 18px;
+        border: 1px solid rgba(0, 0, 0, 0.155);
+        padding: 17px 0 17px 19px;
+        border-radius: 5px;
+        color: #343434;
+    }
+    
+    .contact-detail textarea {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        font-family: 'Poppins';
+        padding: 17px 0 0 19px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.155);
+    }
+    
+    .contact-detail form .common-submit {
+        color: white;
+        font-size: 32px;
+        border-radius: 36px;
+        margin-top: 47px;
+    }
+    
+
 }
 
 /* 992-1199 larg lg */
@@ -2872,17 +2917,6 @@ footer .container {
         width: 100%;
     }
 
-    header nav>ul {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: -50%;
-        height: 100vh;
-        width: 18%;
-        /* background-color: #343434; */
-        background-color: #069ABA;
-        transition: 1s;
-    }
 
 
     .img-box {
@@ -3170,8 +3204,7 @@ footer .container {
         right: -50%;
         height: 100vh;
         width: 50%;
-        /* background-color: #343434; */
-        background-color: #069ABA;
+        background-color: #8a837dd2;
         transition: 1s;
     }
 
@@ -3249,10 +3282,11 @@ footer .container {
         left: 0;
     }
 
-    .sub_blog>li>a {
-        padding: 15px 30px;
+    .sub_dest>li>a {
+        padding: 10px 20px;
         width: 100%;
         color: #069ABA;
+        font-size: 13px;
     }
 
     .sub1_pack>li>a:hover {
