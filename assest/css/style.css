@@ -2418,6 +2418,10 @@ footer .container {
         background: #c4c4c4;
     }
 
+    .booking-price {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -3214,6 +3218,7 @@ footer .container {
         padding: 0 20px;
         font-size: 14px;
         line-height: 50px;
+        
     }
 
     header nav>ul>li>a:hover {
@@ -3283,6 +3288,18 @@ footer .container {
     }
 
     .sub_dest>li>a {
+        padding: 10px 20px;
+        width: 100%;
+        color: #069ABA;
+        font-size: 13px;
+    }
+    .sub_blog>li>a {
+        padding: 10px 20px;
+        width: 100%;
+        color: #069ABA;
+        font-size: 13px;
+    }
+    .sub1_pack>li>a {
         padding: 10px 20px;
         width: 100%;
         color: #069ABA;
