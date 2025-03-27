@@ -551,11 +551,11 @@ header .container>a {
 .tips {
     margin-top: 60px;
     justify-content: space-between;
-    row-gap: 50px;
+    row-gap: 30px;
 }
 
 .tips-Date {
-    row-gap: 58px;
+    row-gap: 30px;
 }
 
 .tips-stories {
